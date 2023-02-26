@@ -15,7 +15,7 @@ That would require us to have some sort of queue(RabbitMQ in this case) which ma
 
 #### Diagram
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/44018737/221422713-26420f78-85a4-4014-af29-85a2d36f1216.png"/>
+  <img src="resources/images/RabbitMQSingleActiveConsumer.jpeg"/>
 </p>
 
 
@@ -24,7 +24,7 @@ That would require us to have some sort of queue(RabbitMQ in this case) which ma
 ``` bash
 python -m .venv venv 
 source .venv/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 docker compose up
 ```
 
