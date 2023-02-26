@@ -22,7 +22,7 @@ That would require us to have some sort of queue(RabbitMQ in this case) which ma
 #### Usage - Linux
 ***Setup the environment***
 ``` bash
-python -m .venv venv 
+python -m venv .venv 
 source .venv/bin/activate
 pip install -r requirements.txt
 docker compose up
