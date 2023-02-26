@@ -34,7 +34,7 @@ docker compose up -d
 cd single_consumer_per_queue
 python test.py
 ```
-***View RabbitMQ Dashboard***
-http://localhost:15672/
-Username: guest
-Password: guest
+***View RabbitMQ Dashboard*** \
+http://localhost:15672/ \
+*Username*: guest \
+*Password*: guest
