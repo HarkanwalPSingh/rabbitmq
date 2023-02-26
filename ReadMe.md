@@ -31,5 +31,10 @@ docker compose up -d
 
 ***Run the Test file***
 ``` bash
-python test.py 
+cd single_consumer_per_queue
+python test.py
 ```
+***View RabbitMQ Dashboard***
+http://localhost:15672/
+Username: guest
+Password: guest
